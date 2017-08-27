@@ -73,14 +73,14 @@ body {
     position: absolute;
 }
 
+.slide-title {
+    margin: 25px auto;
+}
+
 .subtitle {
     margin: 30px auto;
 }
 
 .column-subtitle {
     height: 75px;
-}
-
-.slide-title {
-    margin: 25px auto;
 }
