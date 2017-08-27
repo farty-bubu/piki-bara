@@ -1,0 +1,86 @@
+:root {
+    --main-height: 80vh;
+    --min-main-height: 400px;
+    --background-color: #f7f7f7;
+}
+
+/*bootstrap override*/
+
+.row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card-deck {
+    width: 100%;
+}
+
+.card-deck .card {
+    padding: 40px 20px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    background-color: var(--background-color);
+}
+
+.card-deck .card:nth-of-type(2) {
+    background-color: white;
+}
+
+/*Custom styles*/
+
+body {
+    background-color: var(--background-color);
+}
+
+.slide {
+    margin: 25px auto;
+}
+
+.slide-1 {
+    margin: 10% auto;
+    width: 75%;
+    padding: 40px 0;
+}
+
+.slide-1-text {
+    margin: auto;
+}
+
+.slide-title-underliner {
+    width: 50px;
+    margin: 25px auto;
+    border-bottom: 2px solid black;
+}
+
+.slide-1-background {
+    background: url("/static/img/3.jpg") bottom;
+    background-size: cover;
+    background-position-y: 10%;
+    height: var(--main-height);
+    min-height: var(--min-main-height);
+    margin-bottom: 50px;
+}
+
+.darken {
+    width: 100%;
+    height: var(--main-height);
+    min-height: var(--min-main-height);
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.subtitle {
+    margin: 30px auto;
+}
+
+.column-subtitle {
+    height: 75px;
+}
+
+.slide-title {
+    margin: 25px auto;
+}
