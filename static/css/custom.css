@@ -54,6 +54,10 @@
     border-color: var(--primary-color);
 }
 
+.btn {
+    cursor: pointer;
+}
+
 /*Custom styles*/
 
 body {
@@ -76,9 +80,8 @@ body {
 }
 
 .slide-title-underliner {
-    width: 50px;
-    margin: 25px auto;
-    border-bottom: 2px solid black;
+    width: 100px;
+    border-top: 3px solid var(--primary-color);
 }
 
 .slide-1-background {
@@ -103,7 +106,7 @@ body {
     margin: 25px auto;
 }
 
-.slide-2 .row p {
+.column-text {
     text-align: left;
 }
 
@@ -122,5 +125,16 @@ body {
 }
 
 .footer {
-    background-color: darkgray;
+    background-color: gainsboro;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.footer-links li {
+    padding: 5px 10px;
 }
